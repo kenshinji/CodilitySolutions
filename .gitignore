@@ -1,4 +1,7 @@
 .classpath
 .project
 bin/
+<<<<<<< HEAD
 .settings/
+*.DS_Store
+>>>>>>> c28a6df52e3a5d6f39c265b68d55eef96f728bfe

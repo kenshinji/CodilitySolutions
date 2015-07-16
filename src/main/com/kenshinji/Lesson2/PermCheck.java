@@ -1,4 +1,4 @@
-package com.kenshinji;
+package com.kenshinji.Lesson2;
 
 
 public class PermCheck {
