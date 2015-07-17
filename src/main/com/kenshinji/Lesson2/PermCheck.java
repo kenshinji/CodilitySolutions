@@ -11,7 +11,7 @@ public class PermCheck {
 		System.out.println(solution(test));
 	}
 
-	static int solution(int[] A){
+	public static int solution(int[] A){
 		boolean[] countArray = new boolean[A.length];
 		for(int i=0;i<A.length;i++)
 		{	
