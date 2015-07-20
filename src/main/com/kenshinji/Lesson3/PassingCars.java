@@ -59,8 +59,9 @@ public class PassingCars {
 				count = count + (n-1-i) - zeroCount;
 				zeroCount++;
 			}
+			if(count > 1000000000) return -1;
 			
 		}
-		return count>1000000000?-1:count;
+		return count;
     }
 }
