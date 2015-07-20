@@ -50,6 +50,17 @@ public class PassingCars {
 	
 	public static int solution(int[] A) {
         // write your code in Java SE 8
-		return 5;
+		int n = A.length;
+		int count = 0;
+		int zeroCount = 0;
+		for(int i=n-1;i>=0;i--){
+			if(A[i]==0)
+			{
+				count = count + (n-1-i) - zeroCount;
+				zeroCount++;
+			}
+			
+		}
+		return count>1000000000?-1:count;
     }
 }
