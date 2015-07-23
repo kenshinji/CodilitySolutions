@@ -20,10 +20,10 @@ I init this repo for solutions of [Codility Lessons](https://codility.com/progra
 - [ ] GenomicRangeQuery
 
 ##Lesson 4 [Prefix Sums](https://codility.com/programmers/lessons/4)
-- [  ] MaxProductOfThree
-- [  ] Triangle
-- [  ] Distinct
-- [  ] NumberOfDiscIntersections
+- [ ] MaxProductOfThree
+- [ ] Triangle
+- [ ] Distinct
+- [ ] NumberOfDiscIntersections
 
 ##Lesson 5 [Stacks and Queues](https://codility.com/programmers/lessons/5)
 - [ ] Brackets
@@ -66,7 +66,7 @@ I init this repo for solutions of [Codility Lessons](https://codility.com/progra
 - [ ] AbsDistinct
 - [ ] CountTriangles
 - [ ] CountDistinctSlices
-- [ ][ ] MinAbsSumOfTwo
+- [ ] MinAbsSumOfTwo
 
 ##Lesson 14 [Greedy algorithms](https://codility.com/programmers/lessons/15)
 - [ ] TieRopes
