@@ -83,4 +83,4 @@ I init this repo for solutions of [Codility Lessons](https://codility.com/progra
 - [ ] [BinaryGap](https://github.com/acprimer/Codility/blob/master/src/Lesson99/BinaryGap.java)
 - [ ] [ArrayInversionCount](https://github.com/acprimer/Codility/blob/master/src/Lesson99/ArrayInversionCount.java)
 
-##[Challenges](https://codility.com/programmers/challenges/)
+
