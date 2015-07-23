@@ -14,7 +14,7 @@ I init this repo for solutions of [Codility Lessons](https://codility.com/progra
 - [x] [MaxCounters](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson2/MaxCounters.java)
 
 ##Lesson 3 [Prefix Sums](https://codility.com/programmers/lessons/3)
-- [x] PassingCars(https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson3/PassingCars.java)
+- [x] [PassingCars](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson3/PassingCars.java)
 - [ ] MinAvgTwoSlice
 - [ ] CountDiv
 - [ ] GenomicRangeQuery
