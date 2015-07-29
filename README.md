@@ -20,7 +20,7 @@ I init this repo for solutions of [Codility Lessons](https://codility.com/progra
 - [x] [GenomicRangeQuery](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson3/GenomicRangeQuery.java)
 
 ##Lesson 4 [Prefix Sums](https://codility.com/programmers/lessons/4)
-- [ ] MaxProductOfThree
+- [x] [MaxProductOfThree](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson4/MaxProductOfThree.java)
 - [ ] Triangle
 - [ ] Distinct
 - [ ] NumberOfDiscIntersections
