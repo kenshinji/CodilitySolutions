@@ -39,7 +39,7 @@ public class Triangle {
         int result = 0;
         Arrays.sort(A);
         for (int i = 2; i < A.length; i++) {
-            long sum = A[i - 2] + A[i - 1];
+            long sum = (long) A[i - 2] + A[i - 1];
             if (sum > A[i])
                 result = 1;
         }
