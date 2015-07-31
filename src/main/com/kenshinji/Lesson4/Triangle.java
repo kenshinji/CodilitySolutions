@@ -1,7 +1,10 @@
 package com.kenshinji.Lesson4;
+
+import java.util.Arrays;
+
 /*
  * A zero-indexed array A consisting of N integers is given. A triplet (P, Q, R) is triangular 
- * if 0 ≤ P < Q < R < N and:
+ * if 0 鈮� P < Q < R < N and:
  * A[P] + A[Q] > A[R],
  * A[Q] + A[R] > A[P],
  * A[R] + A[P] > A[Q].
@@ -22,7 +25,7 @@ package com.kenshinji.Lesson4;
  * the function should return 0.
  * Assume that:
  * N is an integer within the range [0..100,000];
- * each element of array A is an integer within the range [−2,147,483,648..2,147,483,647].
+ * each element of array A is an integer within the range [鈭�2,147,483,648..2,147,483,647].
  * Complexity:
  * expected worst-case time complexity is O(N*log(N));
  * expected worst-case space complexity is O(N), beyond input storage (not counting the 
@@ -33,7 +36,13 @@ package com.kenshinji.Lesson4;
 public class Triangle {
     public static int solution(int[] A) {
         // write your code in Java SE 8
-    		int result = 0;
+        int result = 0;
+        Arrays.sort(A);
+        for (int i = 2; i < A.length; i++) {
+            long sum = A[i - 2] + A[i - 1];
+            if (sum > A[i])
+                result = 1;
+        }
     		return result;
     }
 }
