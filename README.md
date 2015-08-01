@@ -22,7 +22,7 @@ I init this repo for solutions of [Codility Lessons](https://codility.com/progra
 ##Lesson 4 [Prefix Sums](https://codility.com/programmers/lessons/4)
 - [x] [MaxProductOfThree](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson4/MaxProductOfThree.java)
 - [x] [Triangle](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson4/Triangle.java)
-- [ ] Distinct
+- [x] [Distinct](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson4/Triangle.java)
 - [ ] NumberOfDiscIntersections
 
 ##Lesson 5 [Stacks and Queues](https://codility.com/programmers/lessons/5)
