@@ -27,7 +27,8 @@ package com.kenshinji.Lesson1;
 public class PermMissingElem {
     public static int solution(int[] A) {
         // write your code in Java SE 8
-    	    long sum = (1 + A.length + 1)*(A.length + 1)/2;
+    	    long N = A.length + 1;
+    	    long sum = (1 + N)*N/2;
     	    for(int e: A){
     	    		sum -= e;
     	    }
