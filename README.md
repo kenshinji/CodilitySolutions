@@ -4,7 +4,7 @@ I init this repo for solutions of [Codility Lessons](https://codility.com/progra
 
 ##Lesson 1 [Time Complexity](https://codility.com/programmers/lessons/1)
 - [x] [TapeEquilibrium](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson1/TapeEquilibrium.java)
-- [ ] FrogJmp
+- [x] [FrogJmp](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson1/FrogJmp.java)
 - [x] [PermMissingElem](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson1/PermMissingElem.java)
 
 ##Lesson 2 [Counting Elements](https://codility.com/programmers/lessons/2)
