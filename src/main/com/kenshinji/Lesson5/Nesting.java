@@ -1,5 +1,7 @@
 package com.kenshinji.Lesson5;
 
+import java.util.Stack;
+
 /*
  * A string S consisting of N characters is called properly nested if:
  * S is empty;
@@ -24,6 +26,24 @@ package com.kenshinji.Lesson5;
 public class Nesting {
     public static int solution(String S) {
         // write your code in Java SE 8
-        return 0;
+        if (S.isEmpty())
+            return 1;
+        char[] array = S.toCharArray();
+
+        Stack<Character> stack = new Stack<Character>();
+        for(int i = 0;i < array.length;i++){
+            if (array[i] == '(') {
+                stack.push(array[i]);
+            }
+            else if (array[i] == ')') {
+                if (!stack.isEmpty()) {
+                    stack.pop();
+                }
+                else {
+                    return 0;
+                }
+            }
+        }
+        return stack.isEmpty() ? 1 : 0;
     }
 }
