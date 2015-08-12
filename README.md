@@ -27,7 +27,7 @@ I created this repo for solutions of [Codility Lessons](https://codility.com/pro
 
 ##Lesson 5 [Stacks and Queues](https://codility.com/programmers/lessons/5)
 - [ ] Brackets
-- [ ] Nesting
+- [x] [Nesting](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson5/Nesting.java)
 - [ ] StoneWall
 - [ ] Fish
 
