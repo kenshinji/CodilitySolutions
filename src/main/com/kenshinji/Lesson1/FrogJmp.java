@@ -18,7 +18,7 @@ package com.kenshinji.Lesson1;
  * after the third jump, at position 10 + 30 + 30 + 30 = 100
  * Assume that:
  * X, Y and D are integers within the range [1..1,000,000,000];
- * X ¡Ü Y.
+ * X ï¿½ï¿½ Y.
  * Complexity:
  * expected worst-case time complexity is O(1);
  * expected worst-case space complexity is O(1).
@@ -28,11 +28,6 @@ package com.kenshinji.Lesson1;
 public class FrogJmp {
     public static int solution(int X, int Y, int D) {
         // write your code in Java SE 8
-        if ((Y - X) % D != 0) {
-            return (Y - X) / D + 1;
-        }
-        else {
-            return (Y - X) / D;
-        }
+        return (Y - X) % D != 0 ? (Y - X) / D + 1 : (Y - X) / D;
     }
 }

@@ -39,13 +39,11 @@ package com.kenshinji.Lesson1;
 public class TapeEquilibrium {
 	public static int solution(int[] A) {
 		// write your code in Java SE 8
-		int sum = 0;
+        int left = 0, right = 0;
 		int min = Integer.MAX_VALUE;
 		for (int e : A) {
-			sum += e;
+            right += e;
 		}
-		int left = 0;
-		int right = sum;
 		for(int i=0;i<A.length-1;i++){
 			left += A[i];
 			right -= A[i];
