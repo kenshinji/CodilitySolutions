@@ -29,7 +29,7 @@ I created this repo for solutions of [Codility Lessons](https://codility.com/pro
 - [x] [Brackets](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson5/Brackets.java)
 - [x] [Nesting](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson5/Nesting.java)
 - [ ] StoneWall
-- [ ] Fish
+- [x] [Fish](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson5/Fish.java)
 
 ##Lesson 6 [Leader](https://codility.com/programmers/lessons/6)
 - [ ] Dominator

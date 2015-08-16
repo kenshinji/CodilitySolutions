@@ -1,5 +1,7 @@
 package com.kenshinji.Lesson5;
+
 import java.util.Stack;
+
 /*
  * You are given two non-empty zero-indexed arrays A and B consisting of N integers. Arrays A and B represent N voracious 
  * fish in a river, ordered downstream along the flow of the river.
@@ -44,36 +46,24 @@ import java.util.Stack;
  */
 public class Fish {
 	public static int solution(int[] A, int[] B) {
+		Stack<Integer> oneStack = new Stack<Integer>();
+		int zeroCount = 0;
 		int length = A.length;
-		Stack<Integer> fishStack = new Stack<Integer>();
-		Stack<Integer> directionStack = new Stack<Integer>();
-		for(int i=0;i<length;i++){
-			if(directionStack.isEmpty()){
-				fishStack.push(A[i]);
-				directionStack.push(B[i]);
-			}else{
-				if(directionStack.peek()==0){
-						fishStack.push(A[i]);
-						directionStack.push(B[i]);
-				}else if(directionStack.peek()==1){
-					if(B[i]==0){
-
-						if(fishStack.peek()<A[i]){
-						while(!directionStack.isEmpty()&&directionStack.peek()==1&&fishStack.peek()<A[i]){
-							fishStack.pop();
-							directionStack.pop();
-						}
-						directionStack.push(B[i]);
-						fishStack.push(A[i]);
-						}
-					}else if(B[i]==1){
-						directionStack.push(B[i]);
-						fishStack.push(A[i]);
-					}
+		for (int i = 0; i < length; i++) {
+			if (B[i] == 0) {
+				while (!oneStack.isEmpty() && oneStack.peek() < A[i]) {
+					oneStack.pop();
 				}
+				
+				//oneStack is empty means that the number of 0 direction finally survive.
+				if (oneStack.isEmpty()) {
+					zeroCount++;
+				}
+			} else {
+				oneStack.push(A[i]);
 			}
 		}
-		return fishStack.size();
+		return zeroCount + oneStack.size();
 	}
-	      
+
 }
