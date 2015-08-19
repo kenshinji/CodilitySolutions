@@ -1,6 +1,5 @@
 package com.kenshinji.Lesson6;
 
-import java.util.ArrayList;
 
 /*
  * A non-empty zero-indexed array A consisting of N integers is given.
@@ -39,45 +38,40 @@ import java.util.ArrayList;
  * Elements of input arrays can be modified.
  */
 public class EquiLeader {
-	public static int solution(int[] A) {
-		// write your code in Java SE 8
-		// first find total leader and count number
-		int length = A.length;
-		int size = 0;
-		int value = -1, candidate = -1, leader = -1;
-		int totalCount = 0;
-		int result = 0;
-		ArrayList<Integer> indexList = new ArrayList<Integer>();
-		for (int i = 0; i < length; i++) {
-			if (size == 0) {
-				size++;
-				value = A[i];
-			} else {
-				if (value != A[i]) {
-					size--;
-				} else {
-					size++;
-				}
-			}
-		}
-		if (size > 0)
-			candidate = value;
-		for (int j = 0; j < length; j++) {
-			if (A[j] == candidate) {
-				totalCount++;
-				indexList.add(j);
-			}
-		}
-		if (candidate > length / 2) {
-			for (int k = 0; k < indexList.size(); k++) {
-				int leftlength = indexList.get(k) - 0 + 1;
-				int rightlength = length - leftlength;
-				if ((k + 1 > (leftlength / 2))
-						&& ((indexList.size() - k - 1) > (rightlength / 2))) {
-					result++;
-				}
-			}
-		}
-		return result;
-	}
+    public static int solution(int[] A) {
+        // write your code in Java SE 8
+        int length = A.length;
+        int size = 0, count = 0, result = 0, candidate = -1;
+
+        for (int i = 0; i < length; i++) {
+            if (size == 0) {
+                size++;
+                candidate = A[i];
+            }
+            else {
+                if (candidate != A[i]) {
+                    size--;
+                }
+                else {
+                    size++;
+                }
+            }
+        }
+        size = 0;
+        for (int j = 0; j < length; j++) {
+            if (A[j] == candidate) {
+                size++;
+            }
+        }
+        if (size <= length / 2)
+            return 0;
+
+        for (int j = 0; j < length; j++) {
+            if (A[j] == candidate)
+                count++;
+            if ((count * 2 > j + 1) && (size - count) * 2 > length - j - 1)
+                result++;
+        }
+        return result;
+    }
 }
