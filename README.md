@@ -33,7 +33,7 @@ I created this repo for solutions of [Codility Lessons](https://codility.com/pro
 
 ##Lesson 6 [Leader](https://codility.com/programmers/lessons/6)
 - [x] [Dominator](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson6/Dominator.java)
-- [ ] EquiLeader
+- [x] [EquiLeader](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson6/EquiLeader.java)
 
 ##Lesson 7 [Maximum slice problem](https://codility.com/programmers/lessons/7)
 - [ ] MaxProfit
