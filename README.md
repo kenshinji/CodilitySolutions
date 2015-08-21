@@ -38,7 +38,7 @@ I created this repo for solutions of [Codility Lessons](https://codility.com/pro
 ##Lesson 7 [Maximum slice problem](https://codility.com/programmers/lessons/7)
 - [ ] MaxProfit
 - [ ] MaxSliceSum
-- [ ] MaxDoubleSliceSum
+- [x] [MaxDoubleSliceSum](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson7/MaxDoubleSliceSum.java)
 
 ##Lesson 8 [Prime and composite numbers](https://codility.com/programmers/lessons/8)
 - [ ] MinPerimeterRectangle
