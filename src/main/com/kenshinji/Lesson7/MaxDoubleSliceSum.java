@@ -43,5 +43,32 @@ package com.kenshinji.Lesson7;
  * 
  */
 public class MaxDoubleSliceSum {
-
+    public static int solution(int[] A) {
+        // write your code in Java SE 8
+    		int maxsum = 0,nowsum = 0;
+    		int el = 0, er = 0;
+    		int sl = 0, sr = 0;
+    		if(A.length == 3)return 0;
+    		for(int i=1;i<A.length-1;i++){
+    			nowsum += A[i];
+    			if(nowsum < 0){
+    				nowsum = 0;
+    				er = i + 1;
+    				el = i + 1;
+    			}else{
+    				er++;
+    			}
+    			if(nowsum > maxsum){
+    				maxsum = nowsum;
+    				sl = el;
+    				sr = er;
+    			}
+    		}
+    		int min = Integer.MAX_VALUE;
+    		//if(sr == A.length - 1)sr--;
+    		for(int j = sl; j < sr; j++){
+    			if(A[j]<min) min = A[j];
+    		}
+    		return maxsum - min;
+    }
 }
