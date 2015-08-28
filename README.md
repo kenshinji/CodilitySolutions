@@ -84,4 +84,5 @@ I created this repo for solutions of [Codility Lessons](https://codility.com/pro
 - [ ] ArrayInversionCount
 
 
+[![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)][license]
 
