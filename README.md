@@ -1,4 +1,6 @@
 # CodilitySolutions
+### Status
+[![Build Status](https://travis-ci.org/kenshinji/CodilitySolutions.svg?branch=master)](https://travis-ci.org/kenshinji/CodilitySolutions)
 
 I created this repo for solutions of [Codility Lessons](https://codility.com/programmers/lessons/)
 
