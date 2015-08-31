@@ -1,6 +1,7 @@
 # CodilitySolutions
-### Status
+
 [![Build Status](https://travis-ci.org/kenshinji/CodilitySolutions.svg?branch=master)](https://travis-ci.org/kenshinji/CodilitySolutions)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/kenshinji/CodilitySolutions/blob/master/LICENSE.txt)
 
 I created this repo for solutions of [Codility Lessons](https://codility.com/programmers/lessons/)
 
@@ -86,5 +87,5 @@ I created this repo for solutions of [Codility Lessons](https://codility.com/pro
 - [ ] ArrayInversionCount
 
 
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/kenshinji/CodilitySolutions/blob/master/LICENSE.txt)
+
 
