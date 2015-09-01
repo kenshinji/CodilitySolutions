@@ -8,7 +8,7 @@ public class StoneWallTest {
 
     @Test
     public void test() {
-        fail("Not yet implemented");
+        
     }
 
 }
