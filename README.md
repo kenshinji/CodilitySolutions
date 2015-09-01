@@ -1,5 +1,8 @@
 # CodilitySolutions
 
+[![Build Status](https://travis-ci.org/kenshinji/CodilitySolutions.svg?branch=master)](https://travis-ci.org/kenshinji/CodilitySolutions)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/kenshinji/CodilitySolutions/blob/master/LICENSE.txt)
+
 I created this repo for solutions of [Codility Lessons](https://codility.com/programmers/lessons/)
 
 ##Lesson 1 [Time Complexity](https://codility.com/programmers/lessons/1)
@@ -82,6 +85,7 @@ I created this repo for solutions of [Codility Lessons](https://codility.com/pro
 - [ ] OddOccurrencesInArray
 - [ ] BinaryGap
 - [ ] ArrayInversionCount
+
 
 
 

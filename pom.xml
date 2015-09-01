@@ -3,6 +3,17 @@
   <groupId>CodilitySolutions</groupId>
   <artifactId>CodilitySolutions</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+<<<<<<< HEAD
+=======
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+</dependencies>
+>>>>>>> 96b10fb0a47b7f63669041d70c00d8bf91ccabe4
   <build>
     <sourceDirectory>src/main</sourceDirectory>
     <testSourceDirectory>src/test</testSourceDirectory>
@@ -19,8 +30,13 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.3</version>
         <configuration>
+<<<<<<< HEAD
           <source>1.8</source>
           <target>1.8</target>
+=======
+          <source/>
+          <target/>
+>>>>>>> 96b10fb0a47b7f63669041d70c00d8bf91ccabe4
         </configuration>
       </plugin>
     </plugins>
