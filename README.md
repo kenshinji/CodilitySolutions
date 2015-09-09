@@ -44,8 +44,8 @@ I created this repo for solutions of [Codility Lessons](https://codility.com/pro
 - [x] [MaxDoubleSliceSum](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson7/MaxDoubleSliceSum.java)
 
 ##Lesson 8 [Prime and composite numbers](https://codility.com/programmers/lessons/8)
-- [ ] MinPerimeterRectangle
-- [ ] CountFactors
+- [x] [MinPerimeterRectangle](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson8/MinPerimeterRectangle.java)
+- [x] [CountFactors](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson8/CountFactors.java)
 - [ ] Peaks
 - [ ] Flags
 
