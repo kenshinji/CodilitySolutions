@@ -8,7 +8,7 @@ public class PeaksTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		
 	}
 
 }
