@@ -5,6 +5,11 @@
 
 I created this repo for solutions of [Codility Lessons](https://codility.com/programmers/lessons/)
 
+<a href="mailto:gundam0083ster@gmail.com" title="Pair program with me!">
+  <img  src="http://pairprogramwith.me/badge.png"
+        alt="Pair program with me!" />
+</a>
+
 ##Lesson 1 [Time Complexity](https://codility.com/programmers/lessons/1)
 - [x] [TapeEquilibrium](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson1/TapeEquilibrium.java)
 - [x] [FrogJmp](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson1/FrogJmp.java)
