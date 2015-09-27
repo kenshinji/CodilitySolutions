@@ -1,5 +1,7 @@
 package com.kenshinji.Lesson8;
 
+import java.util.ArrayList;
+
 /*
  * A non-empty zero-indexed array A consisting of N integers is given.
  * A peak is an array element which is larger than its neighbors. More precisely, it is an index P such 
@@ -64,5 +66,19 @@ package com.kenshinji.Lesson8;
  * Elements of input arrays can be modified.
  */
 public class Peaks {
+	public static int solution(int[] A) {
+		if (A.length < 3)
+			return 0;
+		ArrayList<Integer> peaksIndice = new ArrayList<Integer>();
+		
+		
+		// first find all indice of peaks
+		for (int i = 1; i < A.length - 1; i++) {
+			if (A[i] > A[i - 1] && A[i] > A[i + 1]) {
+				peaksIndice.add(i);
+			}
+		}
 
+		return 3;
+	}
 }
