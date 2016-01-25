@@ -3,5 +3,7 @@
 bin/
 .settings/
 *.DS_Store
+.idea/
+*.iml
 
 /target/

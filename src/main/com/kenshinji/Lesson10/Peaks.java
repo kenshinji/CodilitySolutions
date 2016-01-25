@@ -70,14 +70,33 @@ public class Peaks {
 		if (A.length < 3)
 			return 0;
 		ArrayList<Integer> peaksIndice = new ArrayList<Integer>();
-		
-		
+		int arrayLength = A.length;
+
 		// first find all indice of peaks
 		for (int i = 1; i < A.length - 1; i++) {
 			if (A[i] > A[i - 1] && A[i] > A[i + 1]) {
 				peaksIndice.add(i);
 			}
 		}
+
+		int possibleResult = peaksIndice.size();
+//		while (arrayLength % possibleResult != 0 && possibleResult > 0) {
+//			possibleResult--;
+//		}
+		int step = arrayLength / possibleResult;
+		int start = 0;
+		boolean flag = true;
+		for(int i=0;i<peaksIndice.size();i++){
+			if(flag == false)break;
+			if(peaksIndice.get(i)>=start&&peaksIndice.get(i)<=start+step){
+				flag = true;
+			}else{
+				flag = false;
+			}
+			start += step;
+			
+		}
+		
 
 		return 3;
 	}
