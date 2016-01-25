@@ -1,6 +1,5 @@
 package com.kenshinji.Lesson6;
 
-import com.kenshinji.Lesson4.Triangle;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

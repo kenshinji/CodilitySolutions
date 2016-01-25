@@ -1,7 +1,6 @@
 
 package com.kenshinji.Lesson5;
 
-import com.kenshinji.Lesson3.MinAvgTwoSlice;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

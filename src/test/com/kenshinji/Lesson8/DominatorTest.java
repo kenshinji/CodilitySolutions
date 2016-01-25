@@ -1,6 +1,5 @@
 package com.kenshinji.Lesson8;
 
-import com.kenshinji.Lesson6.Dominator;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;

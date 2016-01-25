@@ -1,7 +1,6 @@
 
 package com.kenshinji.Lesson7;
 
-import com.kenshinji.Lesson5.Nesting;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

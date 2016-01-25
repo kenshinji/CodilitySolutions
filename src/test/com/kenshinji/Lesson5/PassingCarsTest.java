@@ -1,6 +1,5 @@
 package com.kenshinji.Lesson5;
 
-import com.kenshinji.Lesson3.PassingCars;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

@@ -1,6 +1,5 @@
 package com.kenshinji.Lesson4;
 
-import com.kenshinji.Lesson2.FrogRiverOne;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

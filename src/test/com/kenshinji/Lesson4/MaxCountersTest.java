@@ -1,6 +1,5 @@
 package com.kenshinji.Lesson4;
 
-import com.kenshinji.Lesson2.MaxCounters;
 import org.junit.Test;
 
 import java.util.Arrays;

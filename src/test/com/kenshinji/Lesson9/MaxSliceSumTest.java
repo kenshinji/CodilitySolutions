@@ -1,6 +1,5 @@
 package com.kenshinji.Lesson9;
 
-import com.kenshinji.Lesson7.MaxSliceSum;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

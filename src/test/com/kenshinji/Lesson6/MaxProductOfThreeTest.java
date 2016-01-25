@@ -1,7 +1,6 @@
 
 package com.kenshinji.Lesson6;
 
-import com.kenshinji.Lesson4.MaxProductOfThree;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
