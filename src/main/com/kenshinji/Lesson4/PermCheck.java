@@ -1,4 +1,4 @@
-package com.kenshinji.Lesson2;
+package com.kenshinji.Lesson4;
 
 /*
  * A non-empty zero-indexed array A consisting of N integers is given.

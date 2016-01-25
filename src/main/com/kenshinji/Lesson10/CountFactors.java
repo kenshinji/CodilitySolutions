@@ -1,4 +1,4 @@
-package com.kenshinji.Lesson8;
+package com.kenshinji.Lesson10;
 
 /*
  * A positive integer D is a factor of a positive integer N if there exists an integer M such that N = D * M.

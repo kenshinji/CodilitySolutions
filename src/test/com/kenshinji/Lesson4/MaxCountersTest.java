@@ -1,10 +1,11 @@
-package com.kenshinji.Lesson2;
+package com.kenshinji.Lesson4;
 
-import static org.junit.Assert.*;
+import com.kenshinji.Lesson2.MaxCounters;
+import org.junit.Test;
 
 import java.util.Arrays;
 
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 public class MaxCountersTest {
 	private static int[] operations = new int[] { 3, 4, 4, 6, 1, 4, 4 };

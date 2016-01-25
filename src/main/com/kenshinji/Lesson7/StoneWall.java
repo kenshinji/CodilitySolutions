@@ -1,4 +1,4 @@
-package com.kenshinji.Lesson5;
+package com.kenshinji.Lesson7;
 
 /*
  * You are going to build a stone wall. The wall should be straight and N meters long, and its thickness 

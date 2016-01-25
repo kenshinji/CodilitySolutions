@@ -1,8 +1,9 @@
-package com.kenshinji.Lesson2;
+package com.kenshinji.Lesson4;
 
-import static org.junit.Assert.*;
-
+import com.kenshinji.Lesson2.FrogRiverOne;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class FrogRiverOneTest {
 	private final int[] testArray = new int[]{1,3,1,4,2,3,5,4};

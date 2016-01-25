@@ -1,4 +1,4 @@
-package com.kenshinji.Lesson7;
+package com.kenshinji.Lesson9;
 
 
 public class MaxSliceSum {

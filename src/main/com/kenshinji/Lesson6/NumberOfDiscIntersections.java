@@ -1,4 +1,4 @@
-package com.kenshinji.Lesson4;
+package com.kenshinji.Lesson6;
 
 /*
  * We draw N discs on a plane. The discs are numbered from 0 to N − 1. A zero-indexed array A of N non-negative 

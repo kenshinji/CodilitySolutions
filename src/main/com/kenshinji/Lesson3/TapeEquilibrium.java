@@ -1,4 +1,4 @@
-package com.kenshinji.Lesson1;
+package com.kenshinji.Lesson3;
 
 /*
  * A non-empty zero-indexed array A consisting of N integers is given. Array A represents numbers on a tape.

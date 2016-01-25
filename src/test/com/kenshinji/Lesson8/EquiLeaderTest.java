@@ -1,8 +1,9 @@
-package com.kenshinji.Lesson6;
+package com.kenshinji.Lesson8;
 
-import static org.junit.Assert.*;
-
+import com.kenshinji.Lesson6.EquiLeader;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class EquiLeaderTest {
 	private int[] testArray = {4,3,4,4,4,2};

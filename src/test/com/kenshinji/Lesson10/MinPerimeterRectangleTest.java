@@ -1,9 +1,10 @@
 
-package com.kenshinji.Lesson8;
+package com.kenshinji.Lesson10;
+
+import com.kenshinji.Lesson8.MinPerimeterRectangle;
+import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
 
 
 public class MinPerimeterRectangleTest {

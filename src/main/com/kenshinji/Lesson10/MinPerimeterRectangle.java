@@ -1,4 +1,4 @@
-package com.kenshinji.Lesson8;
+package com.kenshinji.Lesson10;
 
 /*
  * An integer N is given, representing the area of some rectangle.

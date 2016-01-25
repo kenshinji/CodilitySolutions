@@ -1,4 +1,4 @@
-package com.kenshinji.Lesson5;
+package com.kenshinji.Lesson7;
 
 import org.junit.Test;
 

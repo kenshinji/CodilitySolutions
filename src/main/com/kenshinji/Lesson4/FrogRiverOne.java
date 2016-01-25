@@ -1,4 +1,4 @@
-package com.kenshinji.Lesson2;
+package com.kenshinji.Lesson4;
 
 import java.util.HashSet;
 import java.util.Set;

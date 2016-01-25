@@ -1,9 +1,10 @@
 
-package com.kenshinji.Lesson3;
+package com.kenshinji.Lesson5;
+
+import com.kenshinji.Lesson3.MinAvgTwoSlice;
+import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
 
 /**
  * @author Fred Wang 上午11:14:33

@@ -1,5 +1,5 @@
 
-package com.kenshinji.Lesson3;
+package com.kenshinji.Lesson5;
 
 
 public class MinAvgTwoSlice {

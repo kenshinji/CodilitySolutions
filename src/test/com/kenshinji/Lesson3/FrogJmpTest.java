@@ -1,9 +1,9 @@
 
-package com.kenshinji.Lesson1;
-
-import static org.junit.Assert.assertEquals;
+package com.kenshinji.Lesson3;
 
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 
 public class FrogJmpTest {

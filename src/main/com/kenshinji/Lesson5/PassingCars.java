@@ -1,4 +1,4 @@
-package com.kenshinji.Lesson3;
+package com.kenshinji.Lesson5;
 
 /*
  * A non-empty zero-indexed array A consisting of N integers is given. The consecutive elements of array A represent consecutive cars on a road.

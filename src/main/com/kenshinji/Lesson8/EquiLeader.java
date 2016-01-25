@@ -1,4 +1,4 @@
-package com.kenshinji.Lesson6;
+package com.kenshinji.Lesson8;
 
 
 /*

@@ -1,8 +1,9 @@
-package com.kenshinji.Lesson5;
+package com.kenshinji.Lesson7;
 
-import static org.junit.Assert.*;
-
+import com.kenshinji.Lesson5.Fish;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class FishTest {
 	private int[] A = {4,3,2,1,5};

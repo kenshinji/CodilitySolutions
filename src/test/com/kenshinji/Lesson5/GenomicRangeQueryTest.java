@@ -1,8 +1,9 @@
-package com.kenshinji.Lesson3;
+package com.kenshinji.Lesson5;
 
-import static org.junit.Assert.*;
-
+import com.kenshinji.Lesson3.GenomicRangeQuery;
 import org.junit.Test;
+
+import static org.junit.Assert.assertArrayEquals;
 
 public class GenomicRangeQueryTest {
 	private String DNSSequence = "CAGCCTA";

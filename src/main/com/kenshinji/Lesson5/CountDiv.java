@@ -1,4 +1,4 @@
-package com.kenshinji.Lesson3;
+package com.kenshinji.Lesson5;
 
 /*
  * Write a function:

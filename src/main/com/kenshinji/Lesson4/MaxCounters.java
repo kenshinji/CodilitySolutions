@@ -1,4 +1,4 @@
-package com.kenshinji.Lesson2;
+package com.kenshinji.Lesson4;
 
 /*
  * You are given N counters, initially set to 0, and you have two possible operations on them:

@@ -1,9 +1,10 @@
 
-package com.kenshinji.Lesson5;
+package com.kenshinji.Lesson7;
+
+import com.kenshinji.Lesson5.Brackets;
+import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
 
 
 public class BracketsTest {

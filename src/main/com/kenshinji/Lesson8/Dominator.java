@@ -1,4 +1,4 @@
-package com.kenshinji.Lesson6;
+package com.kenshinji.Lesson8;
 
 /*
  * A zero-indexed array A consisting of N integers is given. The dominator of array A is the value that occurs in more 
