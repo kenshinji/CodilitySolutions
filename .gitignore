@@ -1,6 +1,7 @@
 .classpath
 .project
 bin/
+/out/
 .settings/
 *.DS_Store
 .idea/
