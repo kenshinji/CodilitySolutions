@@ -51,7 +51,7 @@ I created this repo for solutions of [Codility Lessons](https://codility.com/pro
 - [x] [EquiLeader](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson8/EquiLeader.java)
 
 ##Lesson 9 [Maximum slice problem](https://codility.com/programmers/lessons/7)
-- [ ] MaxProfit
+- [x] [MaxProfit](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson9/MaxProfit.java)
 - [ ] MaxSliceSum
 - [x] [MaxDoubleSliceSum](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson9/MaxDoubleSliceSum.java)
 
