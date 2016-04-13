@@ -14,6 +14,8 @@ I created this repo for solutions of [Codility Lessons](https://codility.com/pro
 - [x] [BinaryGap](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson1/BinaryGap.java)
 
 ##Lesson 2 [Arrays](https://codility.com/programmers/lessons/17/)
+- [x] [CyclicRotation](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson2/CyclicRotation.java)
+- [x] [OddOccurrencesInArray](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson2/OddOccurrencesInArray.java)
 
 ##Lesson 3 [Time Complexity](https://codility.com/programmers/lessons/1/)
 - [x] [TapeEquilibrium](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson3/TapeEquilibrium.java)
