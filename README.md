@@ -52,7 +52,7 @@ I created this repo for solutions of [Codility Lessons](https://codility.com/pro
 
 ##Lesson 9 [Maximum slice problem](https://codility.com/programmers/lessons/7)
 - [x] [MaxProfit](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson9/MaxProfit.java)
-- [ ] MaxSliceSum
+- [x] [MaxSliceSum](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson9/MaxSliceSum.java)
 - [x] [MaxDoubleSliceSum](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson9/MaxDoubleSliceSum.java)
 
 ##Lesson 10 [Prime and composite numbers](https://codility.com/programmers/lessons/8)
