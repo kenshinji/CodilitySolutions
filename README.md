@@ -66,7 +66,7 @@ I created this repo for solutions of [Codility Lessons](https://codility.com/pro
 - [ ] CountNonDivisible
 
 ##Lesson 12 [Euclidean algorithm](https://codility.com/programmers/lessons/10)
-- [ ] ChocolatesByNumbers
+- [x] [ChocolatesByNumbers](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson12/ChocolatesByNumbers.java)
 - [ ] CommonPrimeDivisors
 
 ##Lesson 13 [Fibonacci numbers](https://codility.com/programmers/lessons/11)
