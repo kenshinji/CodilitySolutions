@@ -67,7 +67,7 @@ I created this repo for solutions of [Codility Lessons](https://codility.com/pro
 
 ##Lesson 12 [Euclidean algorithm](https://codility.com/programmers/lessons/10)
 - [x] [ChocolatesByNumbers](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson12/ChocolatesByNumbers.java)
-- [ ] CommonPrimeDivisors
+- [x] [CommonPrimeDivisors](https://github.com/kenshinji/CodilitySolutions/blob/master/src/main/com/kenshinji/Lesson12/CommonPrimeDivisors.java)
 
 ##Lesson 13 [Fibonacci numbers](https://codility.com/programmers/lessons/11)
 - [ ] Ladder
